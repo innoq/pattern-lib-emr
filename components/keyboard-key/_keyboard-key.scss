@@ -1,7 +1,3 @@
 .emr-key {
-  padding: 1rem 1.5rem;
-}
-
-.emr-key + .emr-key {
-  margin-left: 0.5rem;
+  padding: $space-md $space-lg;
 }
