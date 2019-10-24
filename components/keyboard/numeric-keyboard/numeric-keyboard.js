@@ -4,7 +4,7 @@ class NumericKeyboard extends Keyboard {
   onKeyStrike (target, key) {
     // TODO: localization?
     if (key === ".") {
-      target.disabled = true
+      target.outerHTML = '<div></div>'
     }
   }
 }

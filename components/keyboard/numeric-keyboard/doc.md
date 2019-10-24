@@ -1,5 +1,11 @@
 title: Numeric Keyboard:
 
+With a numeric keyboard you can input numbers.
+
+Here is a layout for decimal numbers.
+Try to input more than one decimal point! Bet you can't do it
+with this keyboard!
+
 ```jsx
 import { KeyboardHelper, NUMERIC_LAYOUT } from "./components/keyboard/numeric-keyboard";
 import { createElement } from "complate-stream";
