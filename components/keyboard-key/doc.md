@@ -1,6 +1,6 @@
-title: Button
+title: Keyboard-Key
 
-My favorite button:
+A key in a keyboard that can be pressed.
 
 ```jsx
 import { KeyboardKey } from "./components/keyboard-key";

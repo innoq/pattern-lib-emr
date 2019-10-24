@@ -7,4 +7,4 @@ class KeyboardKey extends HTMLButtonElement {
   }
 }
 
-customElements.define('emr-key', KeyboardKey, { extends: 'p' })
+customElements.define('emr-key', KeyboardKey, { extends: 'button' })
