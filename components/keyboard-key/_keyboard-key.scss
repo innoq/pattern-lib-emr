@@ -1,4 +1,7 @@
 .emr-key {
-  font-style: bold;
-  color: red;
+  padding: 1rem 1.5rem;
+}
+
+.emr-key + .emr-key {
+  margin-left: 0.5rem;
 }
