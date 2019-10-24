@@ -6,5 +6,5 @@ A key in a keyboard that can be pressed.
 import { KeyboardKey } from "./components/keyboard-key";
 import { createElement } from "complate-stream";
 
-<KeyboardKey label="ok" />
+<KeyboardKey label="Blubber" />
 ```

@@ -25,6 +25,7 @@ exports.pages = {
 	components: {
 		file: "./components/components.md",
 		children: {
+			input: "./components/input/doc.md",
 			keyboardkey: "./components/keyboard-key/doc.md"
 		}
 	}
