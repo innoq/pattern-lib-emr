@@ -9,13 +9,6 @@ export const ALPHABETIC_LAYOUT = [
   ["Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 ]
 
-export const NUMERIC_LAYOUT = [
-  [1, 2, 3],
-  [4, 5, 6],
-  [7, 8, 9],
-  [".", 0, { type: "BACKSPACE", key: "Bksp" }]
-]
-
 export function Keyboard({ inputId, transform }, ...children) {
   return <emr-keyboard data-input-id={inputId} data-transform={transform}>
     {children}
@@ -34,6 +27,9 @@ export function configToRows(config) {
       {row.map(key => {
         if (key["type"] && key.type === "BACKSPACE") {
           return <BackspaceKey key={key["key"] || "Bksp"} />
+        }
+        if (key["type"] && key.type === "BLANK") {
+          return <div></div>
         }
         if (key["value"]) {
           return <KeyboardKey key={key["key"] || key["value"]} value={key["value"]} />

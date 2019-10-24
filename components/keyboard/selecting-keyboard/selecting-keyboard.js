@@ -1,4 +1,4 @@
-import { KEY_STRIKE_EVENT, BACKSPACE_STRIKE_EVENT } from '../keyboard-key/keyboard-key'
+import { KEY_STRIKE_EVENT, BACKSPACE_STRIKE_EVENT } from '../../keyboard-key/keyboard-key'
 
 class SelectingKeyboard extends HTMLElement {
   connectedCallback () {

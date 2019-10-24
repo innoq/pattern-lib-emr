@@ -6,7 +6,7 @@ possible options and replaces the currently selected option
 if the user selects a new option.
 
 ```jsx
-import { SelectingKeyboard } from "./components/selecting-keyboard";
+import { SelectingKeyboard } from "./components/keyboard/selecting-keyboard";
 import { KeyboardRow } from "./components/keyboard-row";
 import { KeyboardKey } from "./components/keyboard-key";
 import { createElement } from "complate-stream";
@@ -33,7 +33,7 @@ import { createElement } from "complate-stream";
 Here is a keyboard layout for the selection of months.
 
 ```jsx
-import { KeyboardHelper, MONTH_LAYOUT } from "./components/selecting-keyboard";
+import { KeyboardHelper, MONTH_LAYOUT } from "./components/keyboard/selecting-keyboard";
 import { createElement } from "complate-stream";
 
 <div>

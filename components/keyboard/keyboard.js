@@ -7,7 +7,7 @@ function capitalizeIfNecessary (currentValue, key) {
   return key.toLowerCase()
 }
 
-class Keyboard extends HTMLElement {
+export class Keyboard extends HTMLElement {
   connectedCallback () {
     if (!this.inputId || !document.getElementById(this.inputId)) {
       console.error("Could not find corresponding input field for keyboard")
@@ -15,21 +15,25 @@ class Keyboard extends HTMLElement {
     }
 
     this.input = document.getElementById(this.inputId)
-    this.addEventListener(KEY_STRIKE_EVENT, ({ detail }) => {
+    this.addEventListener(KEY_STRIKE_EVENT, (event) => {
       event.stopPropagation()
 
+      let { detail } = event
       let key = this.capitalize
         ? capitalizeIfNecessary(this.input.value, detail.key)
         : detail.key
 
       // Perform the keystrike that has been specified
       this.input.value = this.input.value + key
+      this.onKeyStrike(event.target, key)
     })
     this.addEventListener(BACKSPACE_STRIKE_EVENT, () => {
       let value = this.input.value
       this.input.value = value.slice(0, value.length - 1)
     })
   }
+
+  onKeyStrike (target, key) {}
 
   get inputId () {
     return this.getAttribute('data-input-id')

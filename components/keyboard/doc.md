@@ -140,15 +140,3 @@ import { createElement } from "complate-stream";
   <KeyboardHelper inputId="input" config={ALPHABETIC_LAYOUT} />
 </div>
 ```
-
-Numeric:
-
-```jsx
-import { KeyboardHelper, NUMERIC_LAYOUT } from "./components/keyboard";
-import { createElement } from "complate-stream";
-
-<div>
-  <input id="input" name="input" type="text" />
-  <KeyboardHelper inputId="input" config={NUMERIC_LAYOUT} />
-</div>
-```

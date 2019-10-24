@@ -1,6 +1,6 @@
 import { createElement } from "complate-stream";
 
-import { configToRows } from "../keyboard"
+import { configToRows } from "../index"
 
 export const MONTH_LAYOUT = [
   [{ key: "Jan (01)", value: "01" }, { key: "Feb (02)", value: "02" }, { key: "Mar (03)", value: "03" }],
