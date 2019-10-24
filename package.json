@@ -1,0 +1,13 @@
+{
+	"name": "pattern-lib-emr",
+	"version": "1.0.0",
+	"description": "A Library of Reusable UI Components, usable for touch devices",
+	"scripts": {
+		"start": "aiur --watch --liveserve 0.0.0.0:4444",
+		"compile": "aiur --fingerprint --compact"
+	},
+	"dependencies": {
+		"aiur": "moonglum/aiur#blynx",
+		"prismjs": "^1.15.0"
+	}
+}
