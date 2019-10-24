@@ -28,20 +28,24 @@ export function CapitalizingKeyboard({ inputId }, ...children) {
   </Keyboard>
 }
 
+export function configToRows(config) {
+  return config.map(row => {
+    return <KeyboardRow>
+      {row.map(key => {
+        if (key["type"] && key.type === "BACKSPACE") {
+          return <BackspaceKey key={key["key"] || "Bksp"} />
+        }
+        if (key["value"]) {
+          return <KeyboardKey key={key["key"] || key["value"]} value={key["value"]} />
+        }
+        return <KeyboardKey key={key} />
+      })}
+    </KeyboardRow>
+  })
+}
+
 export function KeyboardHelper({ inputId, config, transform = "capitalize" }) {
   return <Keyboard inputId={inputId} transform={transform}>
-    {config.map(row => {
-      return <KeyboardRow>
-        {row.map(key => {
-          if (key["type"] && key.type === "BACKSPACE") {
-            return <BackspaceKey key={key["key"] || "Bksp"} />
-          }
-          if (key["value"]) {
-            return <KeyboardKey key={key["key"] || key["value"]} value={key["value"]} />
-          }
-          return <KeyboardKey key={key} />         
-        })}
-      </KeyboardRow>
-    })}
+    {configToRows(config)}
   </Keyboard>
 }
