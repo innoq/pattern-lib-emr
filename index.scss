@@ -1,1 +1,6 @@
+@import "bootstrap/scss/bootstrap";
 @import "./components/keyboard-key/keyboard-key";
+
+body {
+  font-size: 24px;
+}
