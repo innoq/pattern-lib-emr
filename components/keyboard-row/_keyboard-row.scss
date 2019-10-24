@@ -1,0 +1,16 @@
+$emr-key-spacing: $space-sm;
+.emr-keyboard-row {
+  margin: -1 * ($emr-key-spacing / 2);
+  display: flex;
+  flex-wrap: wrap;
+
+  & > * {
+    margin: $emr-key-spacing / 2;
+    flex-grow: 1;
+    flex-basis: 3rem;
+  }
+
+  & + & {
+    margin-top: $emr-key-spacing / 2;
+  }
+}

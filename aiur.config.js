@@ -26,7 +26,9 @@ exports.pages = {
 		file: "./components/components.md",
 		children: {
 			iconelement: "./components/icon-element/doc.md",
-			keyboardkey: "./components/keyboard-key/doc.md"
+			keyboardkey: "./components/keyboard-key/doc.md",
+			keyboardrow: "./components/keyboard-row/doc.md",
+			keyboard: "./components/keyboard/doc.md"
 		}
 	}
 };
