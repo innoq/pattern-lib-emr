@@ -1,0 +1,15 @@
+.picker {
+  position: static;
+  font-size: 2rem;
+}
+.picker__holder {
+  position: static;
+  max-height: 100%;
+  max-width: 100%;
+}
+.picker--opened .picker__holder {
+  max-height: 100%;
+}
+.picker__button--close {
+  display: none;
+}
