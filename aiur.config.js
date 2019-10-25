@@ -34,6 +34,7 @@ exports.pages = {
 		file: "./components/components.md",
 		children: {
 			header: "./components/header/doc.md",
+			select: "./components/select/doc.md",
 			iconelement: "./components/icon-element/doc.md",
 			datepicker: "./components/date-picker/doc.md",
 			keyboardkey: "./components/keyboard-key/doc.md",
