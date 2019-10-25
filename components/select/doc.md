@@ -2,6 +2,11 @@ title: Select-Element
 
 An Element to select a single Item.
 
+JavaScript Styles to Add:
+```
+https://code.jquery.com/jquery-3.4.1.min.js
+```
+
 ```jsx
 import { Select } from "./components/select";
 import { createElement } from "complate-stream";

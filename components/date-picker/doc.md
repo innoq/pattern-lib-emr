@@ -7,6 +7,7 @@ styles from this repository, but also the Pickadate Styles
 
 JavaScript Styles to Add:
 ```
+https://code.jquery.com/jquery-3.4.1.min.js
 https://amsul.ca/pickadate.js/vendor/pickadate/lib/picker.js
 https://amsul.ca/pickadate.js/vendor/pickadate/lib/picker.date.js"
 ```
