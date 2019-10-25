@@ -22,6 +22,7 @@ exports.vendor = {
 
 exports.pages = {
 	"": "./components/welcome.md",
+	view: "./components/view.md",
 	components: {
 		file: "./components/components.md",
 		children: {
