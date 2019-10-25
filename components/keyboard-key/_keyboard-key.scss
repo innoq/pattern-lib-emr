@@ -1,3 +1,7 @@
 .emr-key {
   padding: $space-md $space-lg;
+
+  &.hidden {
+    visibility: hidden;
+  }
 }

@@ -4,7 +4,13 @@ class NumericKeyboard extends Keyboard {
   onKeyStrike (target, key) {
     // TODO: localization?
     if (key === ".") {
-      target.outerHTML = '<div></div>'
+      target.classList.add("hidden")
+    }
+  }
+  onBackspace (target, newValue) {
+    if (!newValue.includes(".")) {
+      this.querySelectorAll(".emr-key")
+        .forEach(key => key.classList.remove("hidden"))
     }
   }
 }

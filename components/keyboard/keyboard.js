@@ -27,13 +27,16 @@ export class Keyboard extends HTMLElement {
       this.input.value = this.input.value + key
       this.onKeyStrike(event.target, key)
     })
-    this.addEventListener(BACKSPACE_STRIKE_EVENT, () => {
+    this.addEventListener(BACKSPACE_STRIKE_EVENT, (event) => {
       let value = this.input.value
       this.input.value = value.slice(0, value.length - 1)
+      this.onBackspace(event.target, this.input.value)
     })
   }
 
   onKeyStrike (target, key) {}
+
+  onBackspace (target, newValue) {}
 
   get inputId () {
     return this.getAttribute('data-input-id')
