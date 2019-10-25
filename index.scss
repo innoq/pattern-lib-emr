@@ -6,10 +6,6 @@ $footer-height: 6.5rem;
 @import "./components/keyboard-key/keyboard-key";
 @import "./components/keyboard-row/keyboard-row";
 
-
-body {
-  font-size: 24px;
-}
 main {
   min-height: 72vh; // Calculate according to header/footer height?
 }

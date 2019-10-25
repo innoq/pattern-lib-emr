@@ -6,7 +6,7 @@ The Header.
 import { Header } from "./components/header";
 import { createElement } from "complate-stream";
 
-<Header name="Franziska Mueller"
+<Header name="Amlesu Ncube"
         sex="female"
         birthday="1970-01-01"
         age="85"

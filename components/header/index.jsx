@@ -5,9 +5,9 @@ export function Header({ name, sex, birthday, age, birthplace, address}) {
 		<div class="emr-header-element emr-header-element__name">{name}</div>
 		<div class="emr-header-element">{sex}</div>
 		<div class="emr-header-element">
-			<span class="">{birthday}</span>/<span>{age}&nbsp;yrs</span>
+			<div class="">{birthday}</div><div>{age}&nbsp;yrs</div>
 		</div>
-		<div class="emr-header-element emr-header-element-address"><span class="fas fa-star-of-life emr-header-element-address__icon"></span>{birthplace}</div>
-		<div class="emr-header-element emr-header-element-address"><span class="fas fa-home emr-header-element-address__icon"></span>{address}</div>
+		<div class="emr-header-element emr-header-element__address"><span class="fas fa-star-of-life emr-header-element__address__icon"></span>{birthplace}</div>
+		<div class="emr-header-element emr-header-element__address"><span class="fas fa-home emr-header-element__address__icon"></span>{address}</div>
 	</header>;
 }

@@ -7,20 +7,7 @@ Please use the `main` Tag for the main contents between the
 header and footer areas.
 
 ```html
-<header>
-    <div>
-        <div class="container">
-            <div class="row">
-                <div class="col"><input class="form-control-plaintext" type="text" value="Chimwemwe Mkandawire" readonly=""></div>
-                <div class="col-1"><input class="form-control-plaintext" type="text" value="Male" readonly=""></div>
-                <div class="col"><input class="form-control-plaintext" type="text" value="21 March 1998 / 21 yrs" readonly=""></div>
-                <div class="col"><input class="form-control-plaintext" type="text" value="Nkhata-Bay / Malanda" readonly=""></div>
-                <div class="col"><input class="form-control-plaintext" type="text" value="Lilongwe City / Kawale II (A4)" readonly=""></div>
-            </div>
-        </div>
-        <hr>
-    </div>
-</header>
+<header is="emr-header" class="emr-header"><div class="emr-header-element emr-header-element__name">Amlesu Ncube</div><div class="emr-header-element">female</div><div class="emr-header-element"><div class="">1970-01-01</div><div>85 yrs</div></div><div class="emr-header-element emr-header-element__address"><span class="fas fa-star-of-life emr-header-element__address__icon"></span>Bavaria/Nuremberg</div><div class="emr-header-element emr-header-element__address"><span class="fas fa-home emr-header-element__address__icon"></span>Bavaria/Munich</div></header>
 <main class="container">
     <h4>Current Address</h4>
     <div>
@@ -71,27 +58,5 @@ header and footer areas.
         </div>
     </div>
 </main>
-<footer class="emr-footer">
-  <button class="btn btn-danger">
-    <span class="emr-icon">
-			<i class="fa fa-window-close"></i>
-			Cancel
-		</span>
-  </button>
-  <button class="btn btn-light ml-auto">
-    <span class="emr-icon">
-			<i class="fa fa-angle-left"></i>
-			Back
-		</span>
-  </button>
-  <button class="btn btn-light">
-    Clear
-  </button>
-  <button class="btn btn-success">
-    <span class="emr-icon-after">
-      Next
-      <i class="fa fa-angle-right"></i>
-		</span>
-  </button>
-</footer>
+<footer class="emr-footer"><button class="btn btn-danger"><span class="emr-icon"><i class="fa fa-window-close"></i>Cancel</span></button><button class="btn btn-light ml-auto"><span class="emr-icon"><i class="fa fa-angle-left"></i>Back</span></button><button class="btn btn-light"><span class="emr-icon"><i class="fa fa-trash-alt"></i>Clear</span></button><button class="btn btn-success"><span class="emr-icon-after">Next<i class="fa fa-angle-right"></i></span></button></footer>
 ```

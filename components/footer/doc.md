@@ -20,7 +20,7 @@ import { createElement } from "complate-stream";
     <IconElement icon="angle-left" label="Back" />
   </button>
   <button class="btn btn-light">
-    Clear
+    <IconElement icon="trash-alt" label="Clear" />
   </button>
   <button class="btn btn-success">
     <IconAfter icon="angle-right" label="Next" />
@@ -43,7 +43,7 @@ import { createElement } from "complate-stream";
     <IconElement icon="angle-left" label="Back" />
   </button>
   <button class="btn btn-light">
-    Clear
+    <IconElement icon="trash-alt" label="Clear" />
   </button>
   <button class="btn btn-success">
     <IconElement icon="check" label="Finish" />
