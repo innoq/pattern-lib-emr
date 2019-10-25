@@ -1,7 +1,14 @@
 .emr-icon {
-  margin-right: 1rem;
+  .fa {
+    padding-right: $space-xs;
+  }
+}
+.emr-icon + .emr-icon {
+  margin-left: $space-md;
+}
 
-  &::before {
-    padding-right: 0.5rem;
+.emr-icon-after {
+  .fa {
+    padding-left: $space-xs;
   }
 }
