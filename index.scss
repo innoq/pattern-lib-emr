@@ -1,9 +1,15 @@
+$footer-height: 6.5rem;
 @import "./bootstrap/out";
+@import "./components/footer/footer";
+@import "./components/header/header";
+@import "./components/icon-element/icon-element";
 @import "./components/keyboard-key/keyboard-key";
 @import "./components/keyboard-row/keyboard-row";
-@import "./components/icon-element/icon-element";
-@import "./components/select/select";
+
 
 body {
   font-size: 24px;
+}
+main {
+  min-height: 72vh; // Calculate according to header/footer height?
 }

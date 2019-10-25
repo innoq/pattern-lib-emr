@@ -1,0 +1,21 @@
+.emr-header {
+  display: flex;
+  padding: 1rem;
+  border-bottom: $teal solid 0.1rem;
+  background: $teal;
+  color: $white;
+
+  .emr-header-element{
+    flex: 0 1 auto;
+    padding-right: 2rem;
+
+    &__name {
+      font-weight: $font-weight-bold;
+    }
+
+    &-address__icon {
+      margin-right: 0.5rem;
+    }
+  }
+
+}

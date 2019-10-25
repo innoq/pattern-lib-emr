@@ -13,3 +13,12 @@ import { createElement } from "complate-stream";
   <IconElement icon="trash" label="clear" />
 </div>
 ```
+
+You can also add the icon after a label.
+
+```jsx
+import { IconAfter } from "./components/icon-element";
+import { createElement } from "complate-stream";
+
+<IconAfter icon="angle-right" label="forward" />
+```
