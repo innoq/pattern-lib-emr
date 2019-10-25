@@ -5,6 +5,7 @@ $footer-height: 6.5rem;
 @import "./components/icon-element/icon-element";
 @import "./components/keyboard-key/keyboard-key";
 @import "./components/keyboard-row/keyboard-row";
+@import "./components/select/select";
 
 main {
   min-height: 72vh; // Calculate according to header/footer height?

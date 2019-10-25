@@ -1,0 +1,21 @@
+/*
+.emr-icon {
+  margin-right: 1rem;
+
+  &::before {
+    padding-right: 0.5rem;
+  }
+}
+*/
+
+.emr-select, .emr-select > select {
+  width: 100%;
+}
+
+.emr-select > select > option {
+  padding: $space-sm $space-md;
+  font-weight: bold;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+}
