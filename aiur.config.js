@@ -22,6 +22,7 @@ exports.vendor = {
 
 exports.pages = {
 	"": "./components/welcome.md",
+	view: "./components/view.md",
 	components: {
 		file: "./components/components.md",
 		children: {
@@ -35,7 +36,8 @@ exports.pages = {
 					selectingkeyboard: "./components/keyboard/selecting-keyboard/doc.md",
 					numerickeyboard: "./components/keyboard/numeric-keyboard/doc.md"
 				}
-			}
+			},
+			footer: "./components/footer/doc.md"
 		}
 	}
 };
