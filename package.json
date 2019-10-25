@@ -7,7 +7,7 @@
 		"compile": "aiur --fingerprint --compact"
 	},
 	"dependencies": {
-		"aiur": "moonglum/aiur#blynx",
+		"aiur": "^0.5.1",
 		"bootstrap": "^4.3.1",
 		"prismjs": "^1.15.0"
 	}
