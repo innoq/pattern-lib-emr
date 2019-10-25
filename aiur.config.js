@@ -8,13 +8,19 @@ exports.vendor = {
 		crossorigin: "anonymous",
 		integrity: "sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU",
 		href: "https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+	}, {
+		href: "https://amsul.ca/pickadate.js/vendor/pickadate/lib/themes/classic.css"
+	}, {
+		href: "https://amsul.ca/pickadate.js/vendor/pickadate/lib/themes/classic.date.css"
 	}],
 	scripts: [{
 		src: "https://code.jquery.com/jquery-3.4.1.min.js",
 		crossorigin: "anonymous",
 		integrity: "sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-	},{
-		src: "https://cdn.jsdelivr.net/npm/pickadate@5.0.0-alpha.3/builds/index.min.js"
+	}, {
+		src: "https://amsul.ca/pickadate.js/vendor/pickadate/lib/picker.js"
+	}, {
+		src: "https://amsul.ca/pickadate.js/vendor/pickadate/lib/picker.date.js"
 	}]
 };
 

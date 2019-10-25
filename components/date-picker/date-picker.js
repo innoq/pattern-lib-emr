@@ -1,7 +1,15 @@
 class DatePicker extends HTMLInputElement {
   connectedCallback () {
-    // $(this).pickadate()
-    console.log(jQuery)
+    let $input = $(this).pickadate({
+      closeOnClear: false,
+      closeOnSelect: false
+    })
+    let picker = $input.pickadate('picker')
+    picker.close = (focus) => {
+      // Override Close behavior so datepicker stays open
+    }
+
+    picker.open()
   }
 }
 

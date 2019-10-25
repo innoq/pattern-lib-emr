@@ -5,10 +5,10 @@
   left: 0;
   height: $footer-height;
   width: 100%;
-  border-top: 1px solid $gray-300;
+  border-top: 1px solid $gray-200;
   margin-top: $space-xs;
-  background-color: $white;
-  z-index: 2;
+  background: $lightblue;
+  z-index: 100;
   
   & > * {
     margin: ($space-xs / 2);
