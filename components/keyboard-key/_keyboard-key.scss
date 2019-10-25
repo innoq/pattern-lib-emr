@@ -1,7 +1,13 @@
 .emr-key {
-  padding: $space-md $space-lg;
+  padding: $space-sm $space-md;
+  font-weight: bold;
 
   &.hidden {
     visibility: hidden;
+  }
+
+  &:hover {
+    background-color: $white;
+    color: $primary;
   }
 }

@@ -1,7 +1,7 @@
 import { KEY_STRIKE_EVENT, BACKSPACE_STRIKE_EVENT } from '../keyboard-key/keyboard-key'
 
 function capitalizeIfNecessary (currentValue, key) {
-  if (currentValue === "") {
+  if (currentValue === "" || currentValue.endsWith(" ")) {
     return key.toUpperCase()
   }
   return key.toLowerCase()
