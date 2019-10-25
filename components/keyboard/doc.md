@@ -3,6 +3,12 @@ title: Keyboard
 This JavaScript component provides the glue between the keys and
 the input fields that they are providing. 
 
+A keyboard is composed of three different components:
+* the `<emr-keyboard>` Tag provides the JavaScript typing functionality
+* a `<div class="emr-keyboard-row">` element should wrap the key buttons
+to provide spacing and styling of the keyboard rows.
+* A keyboard key (see [Keyboard Key](/components/keyboardkey/))
+
 ```jsx
 import { Keyboard } from "./components/keyboard";
 import { KeyboardRow } from "./components/keyboard-row";

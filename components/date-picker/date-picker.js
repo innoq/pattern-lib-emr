@@ -1,5 +1,10 @@
 class DatePicker extends HTMLInputElement {
   connectedCallback () {
+    if (!window.jQuery || !$(this).pickadate) {
+      console.error('pickadate not installed. Datepicker cannot be instantiated')
+      return
+    }
+
     let $input = $(this).pickadate({
       closeOnClear: false,
       closeOnSelect: false

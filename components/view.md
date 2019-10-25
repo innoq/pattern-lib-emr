@@ -7,9 +7,9 @@ Please use the `main` Tag for the main contents between the
 header and footer areas.
 
 ```html
-<header is="emr-header" class="emr-header"><div class="emr-header-element emr-header-element__name">Amlesu Ncube</div><div class="emr-header-element">female</div><div class="emr-header-element"><div class="">1970-01-01</div><div>85 yrs</div></div><div class="emr-header-element emr-header-element__address"><span class="fas fa-star-of-life emr-header-element__address__icon"></span>Bavaria/Nuremberg</div><div class="emr-header-element emr-header-element__address"><span class="fas fa-home emr-header-element__address__icon"></span>Bavaria/Munich</div></header>
+<header is="emr-header" class="emr-header"><div class="emr-header-element emr-header-element__name">Amlesu Ncube</div><div class="emr-header-element">female</div><div class="emr-header-element"><div>1970-01-01</div><div>85 yrs</div></div><div class="emr-header-element emr-header-element__address"><span class="fas fa-star-of-life emr-header-element__address__icon"></span>Bavaria/Nuremberg</div><div class="emr-header-element emr-header-element__address"><span class="fas fa-home emr-header-element__address__icon"></span>Bavaria/Munich</div></header>
 <main class="container">
-    <h4>Current Address</h4>
+    <h1>Current Address</h1>
     <div>
         <div class="row">
             <div class="col"><input class="form-control-plaintext" type="text" value="Region" readonly=""><input type="text" id="input-region">

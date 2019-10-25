@@ -285,7 +285,7 @@ $border-width:                0.1rem !default;
 // $font-family-base:            $font-family-sans-serif !default;
 // // stylelint-enable value-keyword-case
 
-$font-size-base:              3rem !default; // Assumes the browser default, typically `16px`
+// $font-size-base:              3rem !default; // Assumes the browser default, typically `16px`
 // $font-size-lg:                $font-size-base * 1.25 !default;
 // $font-size-sm:                $font-size-base * .875 !default;
 
@@ -420,7 +420,7 @@ $font-size-base:              3rem !default; // Assumes the browser default, typ
 // $btn-padding-y:               $input-btn-padding-y !default;
 // $btn-padding-x:               $input-btn-padding-x !default;
 // $btn-font-family:             $input-btn-font-family !default;
-// $btn-font-size:               $input-btn-font-size !default;
+$btn-font-size:               3rem !default;
 // $btn-line-height:             $input-btn-line-height !default;
 
 // $btn-padding-y-sm:            $input-btn-padding-y-sm !default;
