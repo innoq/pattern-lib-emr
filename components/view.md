@@ -1,5 +1,11 @@
 title: One of the views
 
+You can't really see how the page with the footer behaves
+here. Click [here](0.html) to play around with it.
+
+Please use the `main` Tag for the main contents between the
+header and footer areas.
+
 ```html
 <header>
     <div>
@@ -15,7 +21,7 @@ title: One of the views
         <hr>
     </div>
 </header>
-<div class="container">
+<main class="container">
     <h4>Current Address</h4>
     <div>
         <div class="row">
@@ -64,15 +70,28 @@ title: One of the views
             </div>
         </div>
     </div>
-</div>
-<footer class="text-center fixed-bottom">
-    <div>
-        <hr class="mb-auto">
-        <div class="row">
-            <div class="col mx-5"><input class="form-control-plaintext" type="text" id="footer-area" readonly="" value="Patient Registration - Demographics - Birthdate"></div>
-            <div class="btn-group btn-block col mx-5"><button class="btn btn-primary btn-danger" id="navigation-back" type="button">Back</button><button class="btn btn-primary mx-1 btn-warning" id="navigation-clear" type="button">Clear</button><button class="btn btn-primary active btn-success"
-                    id="navigation-next" type="button">Next</button></div>
-        </div>
-    </div>
+</main>
+<footer class="emr-footer">
+  <button class="btn btn-danger">
+    <span class="emr-icon">
+			<i class="fa fa-window-close"></i>
+			Cancel
+		</span>
+  </button>
+  <button class="btn btn-light ml-auto">
+    <span class="emr-icon">
+			<i class="fa fa-angle-left"></i>
+			Back
+		</span>
+  </button>
+  <button class="btn btn-light">
+    Clear
+  </button>
+  <button class="btn btn-success">
+    <span class="emr-icon-after">
+      Next
+      <i class="fa fa-angle-right"></i>
+		</span>
+  </button>
 </footer>
 ```

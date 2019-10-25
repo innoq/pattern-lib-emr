@@ -35,7 +35,8 @@ exports.pages = {
 					selectingkeyboard: "./components/keyboard/selecting-keyboard/doc.md",
 					numerickeyboard: "./components/keyboard/numeric-keyboard/doc.md"
 				}
-			}
+			},
+			footer: "./components/footer/doc.md"
 		}
 	}
 };
