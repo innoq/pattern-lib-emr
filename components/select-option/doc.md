@@ -1,6 +1,6 @@
-title: Select-Element
+title: Select-Option-Element
 
-An Element to select a single Item.
+An option for a single select.
 
 ```jsx
 import { Select } from "./components/select";
@@ -12,8 +12,7 @@ import { createElement } from "complate-stream";
   <SelectOption text="anothertext" value="anotherValue" />
 </Select>
 ```
-
-An Element to select multiple Items.
+An option for a multi-select.
 
 ```jsx
 import { Select } from "./components/select";

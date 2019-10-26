@@ -1,11 +1,5 @@
-.emr-select, .emr-select > select {
+.emr-select {
   width: 100%;
+  margin-bottom: 0.75rem;
 }
 
-.emr-select > select > option {
-  padding: $space-sm $space-md;
-  font-weight: bold;
-  text-align: center;
-  border-width: 1px;
-  border-style: solid;
-}
